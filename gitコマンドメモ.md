@@ -19,8 +19,9 @@ $ git clone git://github.com/centraleden/grit.git
 $ git status
 ```
 ## ファイルを追跡対象に追加
-ディレクトリを指定したらンその中身全部commit対象に加える
+ディレクトリを指定したらその中身全部commit対象に加える
 ```
 $ git add filename
 ```
+
 
