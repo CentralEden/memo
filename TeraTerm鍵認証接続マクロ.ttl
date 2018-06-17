@@ -1,0 +1,12 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+username = 'centraleden'
+hostname = 'localhost'
+keyfile = 'C:\Users\Åc\key.pem'
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+msg = hostname
+strconcat msg ':22 /ssh /auth=publickey /user=' 
+strconcat msg username
+strconcat msg ' /keyfile='
+strconcat msg keyfile
+connect msg
