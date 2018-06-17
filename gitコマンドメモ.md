@@ -23,5 +23,7 @@ $ git status
 ```
 $ git add filename
 ```
-
-
+## push
+```
+$ git push
+```
